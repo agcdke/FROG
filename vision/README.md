@@ -1,12 +1,14 @@
 # Vision
-My doctoral research work focuses on harnessing MobileViT block in agricultural vision applications that could be deployed on Edge or Mobile devices. It has 3 basic parts:
+The research work focuses on harnessing MobileViT block in agricultural vision applications that could be deployed on Edge or Mobile devices. It has 3 basic parts:
 <ol>
 <li> Enhance CBAM block using MobileViT</li>
 <li> Minimize error-metrics for Multi-spectral image regresion</li>
 <li> Evaluate MobileViT block on texture and shape biasness</li>
-<li></li>
 </ol>
-### Experiment workstation
+
+### Experiment workstations
+Two workstations (each contains 2 GPUs) are used, where each of GPU has 24 GB memory. The experiment uses TensorFlow 2.15 (Keras API) Multi-GPU strategy, and enables <em>Deterministic Operations</em> to offer reproducibility based on seed value.
+
 ### AgriBlazeNet
 This work is presented at IEEE International Conference on Tools with Artificial Intelligence (ICTAI), 2025. BlazeFace, a lightweight and well-performing face detector tailored for mobile GPU inference is presented by Google and used in Google MediaPipe solutions. Four variants of BlazeFace-based image classification models are presented:
 <ol>
